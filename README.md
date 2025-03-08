@@ -1,5 +1,3 @@
-# editor_size
-
 # IMPORTANT NOTE FOR GODOT 4.4+
 
 Godot 4.4 introduced "Persistent window state", which means this plugin should no longer be necessary! It shouldn't hurt anything to keep it in-place for now, but if you've upgraded to 4.4, you can probably get rid of it now.
@@ -10,8 +8,9 @@ See also:
 - [https://godotengine.org/releases/4.4/#general-editor]
 - [https://github.com/godotengine/godot/pull/76085]
 
+---
 
-## Original README
+# editor_size
 
 *A Godot 4.x plug-in (tested on 4.0.2 through 4.3.0).*
 
