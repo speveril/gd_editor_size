@@ -1,6 +1,19 @@
 # editor_size
 
-*A Godot 4.x plug-in (tested on 4.0.2, might/should work on later versions of 4.x).*
+# IMPORTANT NOTE FOR GODOT 4.4+
+
+Godot 4.4 introduced "Persistent window state", which means this plugin should no longer be necessary! It shouldn't hurt anything to keep it in-place for now, but if you've upgraded to 4.4, you can probably get rid of it now.
+
+When I first made this plugin I described it as a plug-in that shouldn't have to exist, and now it doesn't. :)
+
+See also:
+- [https://godotengine.org/releases/4.4/#general-editor]
+- [https://github.com/godotengine/godot/pull/76085]
+
+
+## Original README
+
+*A Godot 4.x plug-in (tested on 4.0.2 through 4.3.0).*
 
 I usually work in a Godot window that is sized a bit smaller than my full screen, so that I can see terminals and chat windows around the edges of it. Unfortunately, Godot always starts maximized, and when restoring the window to non-maximized, it just picks the same small size it always loads with.
 
